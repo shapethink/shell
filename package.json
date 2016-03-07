@@ -1,7 +1,7 @@
 {
   "name": "@threadmetal/shell",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a simple interface to the shell",
   "main": "index.js",
   "scripts": {

@@ -16,7 +16,7 @@ This section describes a number of external concepts and some syntax sugar to ma
 	cd = process.chdir
 
 	# shell commands
-	shell = require "@threadmetal/shell"
+	shell = require "."
 
 	git = clone: (repo_url) ->
 		shell "git clone #{repo_url}"
@@ -27,7 +27,7 @@ This section describes a number of external concepts and some syntax sugar to ma
 	should = require("chai").should()
 
 	# unit under test
-	shell = require "."
+	moduleExports = require "."
 
 Now that those ideas are nicely nailed down, we can proceed with...
 
@@ -51,7 +51,7 @@ This `README` is also a module written in [Literate CoffeeScript]. Among other n
 
 	module.exports =
 		defaults: ->
-			result = shell "echo -n foobar baz quux"
+			result = shell "echo -n foobar baz quux", options:"pipe"
 			result.status.should.equal 0
 
 			lines = result.output.join("").split("\n")
