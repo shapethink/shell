@@ -4,7 +4,6 @@ module.exports = (cmdline, options = {stdio:"inherit"}) ->
 		console.log "shell: #{cmdline}"
 		{ status: 0 }
 	else
-		require "child_process"
-			.spawnSync "bash", ["-c", cmdline], options
+		Process.spawnSync "bash", ["-c", cmdline], options
 
 module.exports.dry_run = false
