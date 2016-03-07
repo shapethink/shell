@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/threadmetal/git.git"
+    "url": "git+https://github.com/threadmetal/shell.git"
   },
   "keywords": [
     "git",
@@ -18,16 +18,12 @@
   "author": "Robert M. Koch <threadmetal@gmail.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/threadmetal/git/issues"
+    "url": "https://github.com/threadmetal/shell/issues"
   },
-  "homepage": "https://github.com/threadmetal/git#readme",
+  "homepage": "https://github.com/threadmetal/shell#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "coffee-script": "^1.10.0",
     "mocha": "^2.4.5"
-  },
-  "dependencies": {
-    "ampersand-collection": "^1.6.1",
-    "ampersand-state": "^5.0.0"
   }
 }
