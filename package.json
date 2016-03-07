@@ -1,0 +1,29 @@
+{
+  "name": "@threadmetal/shell",
+  "private": true,
+  "version": "0.0.1",
+  "description": "a simple interface to the shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threadmetal/shell.git"
+  },
+  "keywords": [
+    "git",
+    "experimental"
+  ],
+  "author": "Robert M. Koch <threadmetal@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/threadmetal/shell/issues"
+  },
+  "homepage": "https://github.com/threadmetal/shell#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.4.5"
+  }
+}
